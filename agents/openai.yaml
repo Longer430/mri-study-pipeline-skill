@@ -1,0 +1,4 @@
+interface:
+  display_name: "MRI 研究级流水线"
+  short_description: "多序列 MRI 的 DICOM 读取、左右规范化、序列判别、解剖裁剪、2.5D MIL 模型与离线推理稳健性"
+  default_prompt: "使用 $mri-study-pipeline 检查我的 MRI 预处理、模型输入与推理流程，指出会影响标签实验和隐藏测试的风险。"

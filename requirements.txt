@@ -1,0 +1,4 @@
+numpy>=1.24
+pandas>=2.0
+pydicom>=2.4   # only for the dicom_series.py CLI
+torch>=2.1     # only for mil_head.py
